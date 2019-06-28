@@ -8,19 +8,13 @@ You need:
 Fisrt stage its correct connection touchscreen to OrangePI
 
 Pinout
-
 OrangePI:          Goodix GT911:
 
 1	3.3V             VCC
-
 3	PA12             SDA
-
 5	PA11             SDL
-
 7	PA06             RST
-
 9	GND	             GND
-
 11 PA01            INT
 
 
@@ -32,13 +26,9 @@ Next add this lines to end of fex file:
 
 [ctp_para]
 ctp_used = 1
-
 ctp_twi_id = 0
-
 ctp_name = "Goodix-TS"
-
 ctp_twi_addr = 0x14
-
 
 ctp1_used = 1
 ctp1_twi_id = 0
