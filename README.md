@@ -10,11 +10,11 @@ Fisrt stage its correct connection touchscreen to OrangePI
 Pinout
 OrangePI:          Goodix GT911:
 
-1	3.3V             VCC
-3	PA12             SDA
-5	PA11             SDL
-7	PA06             RST
-9	GND	             GND
+1	3.3V              VCC
+3	PA12              SDA
+5	PA11              SDL
+7	PA06              RST
+9	GND               GND
 11 PA01             INT
 
 
