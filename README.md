@@ -15,7 +15,7 @@ OrangePI:          Goodix GT911:
 5	PA11             SDL
 7	PA06             RST
 9	GND	             GND
-11 PA01            INT
+11 PA01             INT
 
 
 addtional information: https://linux-sunxi.org/Touchscreen
