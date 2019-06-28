@@ -19,14 +19,11 @@ OrangePI:          Goodix GT911:
 9 GND               GND
 11 PA01             INT
 
-
 addtional information: https://linux-sunxi.org/Touchscreen
-
 
 Second stage - configure FEX (script.bin), please load you H3Droid to H3resc
 and choose "edit fex" mode.
 Next add this lines to end of fex file:
-
 
 [ctp_para]
 ctp_used = 1
@@ -48,8 +45,6 @@ ctp_int_port = port:PA01<6><default><default><default>              #INT port se
 ctp_wakeup = port:PA11<1><default><default><1>                      #Wakeup port settings
 ctp_io_port = port:PA12<0><default><default><default>               #IO Port Settings
 rst_port = port:PA06<1><default><default><default>                  #RST port settings
-
-
 
 [ctp_list_para]
 ctp_det_user = 1
