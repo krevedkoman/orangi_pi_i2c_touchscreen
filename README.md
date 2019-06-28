@@ -40,6 +40,7 @@ and choose "edit fex" mode.
 Next add this lines to end of fex file:
 
 
+
 [ctp_para]
 
 ctp_used = 1
@@ -77,6 +78,7 @@ ctp_io_port = port:PA12<0><default><default><default>               #IO Port Set
 rst_port = port:PA06<1><default><default><default>                  #RST port settings
 
 
+
 [ctp_list_para]
 
 ctp_det_user = 1
@@ -92,6 +94,8 @@ gt9xx_ts = 1
 gt9xxf_ts = 1
 
 gt818_ts = 1
+
+
 
 
 save and reboot to h3droid system.
