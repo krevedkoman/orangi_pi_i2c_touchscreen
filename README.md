@@ -17,7 +17,7 @@ Pinout
 OrangePI:          Goodix GT911:
 
 
-1	3.3V              VCC
+1	3.3V              VCCa
 
 3	PA12              SDA
 
